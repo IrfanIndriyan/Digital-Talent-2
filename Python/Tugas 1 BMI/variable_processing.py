@@ -1,4 +1,9 @@
 def convert(value):
+	"""convert
+
+	convert the input value from '123 unit' converted to '123 m' or '123 kg'
+	"""
+
 	import re
 
 	new_value = ""
@@ -6,6 +11,7 @@ def convert(value):
 	# in case there is a word in caption
 	value = value.lower()
 
+	# find out the unit
 	if value.endswith("cm"):
 		new_value = var_conversion(re.sub(r'[^0-9.]', '', value))
 		new_value /= 100
@@ -26,6 +32,7 @@ def convert(value):
 		new_value = var_conversion(re.sub(r'[^0-9.]', '', value))
 		new_value *= 0.453592
 	else:
+		# check if the input is something that is not defined
 		if value.endswith('m') and not value[-2].isalpha():
 			new_value = var_conversion(re.sub(r'[^0-9.]', '', value))
 
