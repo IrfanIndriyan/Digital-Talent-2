@@ -4,15 +4,15 @@ from bmi import *
 print ("""Body Mass Index (BMI)
 
 Note. the default input for weight is kg and height m
-	please specify your value if it's not in kg or m
+      please specify your value if it's not in kg or m
 
-	* Supported unit:
-		Weight (g and lbs)
-		height (cm, inch, and ft)
+* Supported unit:
+    Weight (g and lbs)
+    height (cm, inch, and ft)
 		
 Example:
-	15 lbs or 15lbs
-	7 km or 7km
+    15 lbs or 15lbs
+    7 km or 7km
 	""")
 
 weight = input("Weight? ")

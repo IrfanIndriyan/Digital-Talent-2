@@ -24,7 +24,7 @@ def convert(value):
 		new_value = var_conversion(re.sub(r'[^0-9.]', '', value))
 		new_value *= 0.0254
 
-	elif value.endswith("g"):
+	elif value.endswith("g") and not value.endswith("kg"):
 		new_value = var_conversion(re.sub(r'[^0-9.]', '', value))
 		new_value /= 1000
 
