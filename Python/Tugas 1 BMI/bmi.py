@@ -6,7 +6,7 @@ def calculate_bmi(weight, height):
 	Formula:
 	BMI = weight / height^2
 	"""
-	return weight / height ** 2
+	return (weight / height ** 2)
 
 
 def bmi_catagories(bmi):
