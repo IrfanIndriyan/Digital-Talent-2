@@ -18,27 +18,27 @@ def bmi_catagories(bmi):
 	catagory = ""
 
 	if bmi < 15:
-		catagory = "\tVery severely underweight"
+		catagory = "Very severely underweight"
 
 	elif bmi >= 15 and bmi < 16:
-		catagory = "\tSeverely underweight"
+		catagory = "Severely underweight"
 
 	elif bmi >= 15 and bmi < 18.5:
-		catagory = "\tUnderweight"
+		catagory = "Underweight"
 
 	elif bmi >= 18.5 and bmi < 25:
-		catagory = "\tNormal (healthy weight)"
+		catagory = "Normal (healthy weight)"
 
 	elif bmi >= 25 and bmi < 30:
-		catagory = "\tOverweight"
+		catagory = "Overweight"
 
 	elif bmi >= 30 and bmi < 35:
-		catagory = "\tModerately obese"
+		catagory = "Moderately obese"
 
 	elif bmi >= 35 and bmi < 40:
-		catagory = "\tSeverely obese"
+		catagory = "Severely obese"
 
 	else:
-		catagory = "\tVery severely obese"
+		catagory = "Very severely obese"
 
 	return catagory

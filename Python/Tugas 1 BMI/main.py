@@ -25,5 +25,5 @@ bmi = calculate_bmi(weight, height)
 bmi_catagory = bmi_catagories(bmi)
 
 print ("\nBMI\tBMI Catagory")
-print (round(bmi, 2), bmi_catagory)
+print (round(bmi, 2), bmi_catagory, sep = '\t')
 
