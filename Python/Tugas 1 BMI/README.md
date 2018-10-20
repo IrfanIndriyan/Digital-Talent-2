@@ -2,7 +2,7 @@
 
 **Deskripsi**: *Body Mass Index* (*BMI*) menentukan sebuah keidealan berat badan terhadap tinggi badan.<br>
 Berikut adalah formula untuk dari BMI<br>
-$BMI = \frac{weight (kg)} {height^2 (m^2)}$
+\[BMI=\frac{weight(kg)}{height^2(m^2))}\]
 
 Berikut adalah kategorisasi *BMI*
 
