@@ -21,10 +21,8 @@ Berikut adalah kategorisasi *BMI*
 
 ### Body Mass Index (BMI)
 
-![alt text][main_scrsht]
-[main_scrsht]: https://github.com/Bunny4teen/Digital-Talent/blob/master/Python/Tugas%201%20BMI/images/main.png "Screenshoot main.py"
+![alt text](https://github.com/Bunny4teen/Digital-Talent/blob/master/Python/Tugas%201%20BMI/images/main.png "Screenshoot main.py")
 
 ### Simple Body Mass Index (BMI)
 
-![alt text][simple_scrsht]
-[simple_scrsht]: https://github.com/Bunny4teen/Digital-Talent/blob/master/Python/Tugas%201%20BMI/images/simple.png "Screenshoot simple.py"
+![alt text](https://github.com/Bunny4teen/Digital-Talent/blob/master/Python/Tugas%201%20BMI/images/simple.png "Screenshoot simple.py")
