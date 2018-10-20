@@ -21,7 +21,8 @@ Berikut adalah kategorisasi *BMI*
 
 ### Body Mass Index (BMI)
 
-
+![alt text][main_scrsht]
+[main_scrsht]: images/main.png
 
 ### Simple Body Mass Index (BMI)
 
