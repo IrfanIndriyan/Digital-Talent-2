@@ -30,20 +30,6 @@ def count(sequence_of_numbers):
 
 	return count
 
-def insertion_sort(sequence_of_numbers):
-	for i in xrange(1, len(sequence_of_numbers)):
-		key = sequence_of_numbers[i]
-
-		j = i - 1
-
-		while  j >= 0 and sequence_of_numbers[j] > key:
-			sequence_of_numbers[j + 1] = sequence_of_numbers[j]
-			j = j - 1
-
-		sequence_of_numbers[j + 1] = key
-
-	return sequence_of_numbers
-
 def max_min(sequence_of_numbers):
 	max = 0
 	min = 100
