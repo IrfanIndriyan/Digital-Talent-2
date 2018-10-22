@@ -2,7 +2,7 @@
 
 **Deskripsi**: *Body Mass Index* (*BMI*) menentukan sebuah keidealan berat badan terhadap tinggi badan.<br>
 Berikut adalah formula untuk dari BMI<br>
-<a href="https://www.codecogs.com/eqnedit.php?latex=BMI=\frac{weight(kg)}{height^2(m^2))}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?BMI=\frac{weight(kg)}{height^2(m^2))}" title="BMI=\frac{weight(kg)}{height^2(m^2))}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=BMI=\frac{weight(kg)}{height(m)^2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?BMI=\frac{weight(kg)}{height(m)^2}" title="BMI=\frac{weight(kg)}{height(m)^2}" /></a>
 
 Berikut adalah kategorisasi *BMI*
 
