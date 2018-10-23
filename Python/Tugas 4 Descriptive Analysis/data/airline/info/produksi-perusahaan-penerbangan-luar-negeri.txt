@@ -1,0 +1,8 @@
+# Produksi Perusahaan Penerbangan (Luar Negeri)
+
+1. Jadwal Penerbangan: Penerbangan yang dilakukan secara teratur dengan rute dan jadwal yang tetap.
+2. Aircraft-Km Jumlah jarak penerbangan (Km): selama periode waktu tertentu (satu tahun).
+3. Performed Seat-Km: Hasil perkalian antara jumlah tempat duduk yang tersedia dengan jarak penerbangan (Km) dari tiap-tiap penerbangan selama periode waktu tertentu.
+4. Performed Total-Km: Jumlah perkalian berat barang (ton) dengan jarak (Km)dari tiap-tiap penerbangan selama periode waktu tertentu (satu tahun)
+
+Statistik Angkutan Udara mencakup jadual penerbangan dan baik domestik dan internasional; dan statistik pelabuhan udara baik komersial dan non komersial seluruh Indonesia. Pengumpulan data yang dapat memberikan gambaran tentang aktifitas angkutan udara antar bandar udara secara nasional dilakukan melalui beberapa cara. Untuk lalu lintas angkutan udara berupa asal tujuan, pergerakan pesawat udara, penumpang, bagasi, barang dan pos/paket dikumpulkan dari bandar udara baik yang dikelola oleh PT. (Persero) Angkasa Pura maupun Direktorat Jenderal Perhubungan Udara, melalui Kantor Wilayah Departemen Perhubungan di daerah yang bersangkutan. Data lalu lintas angkutan udara yang dikumpulkan inimerupakan rekapitulasi terhadap aktivitas penerbangan masing-masing bandar udara setiap bulan. Sedangkan data registrasi pesawat dikumpulkan dari Direktorat Penerbangan Sipil serta data produksi perusahaan penerbangan berjadwal diperoleh dari perusahaan yang bersangkutan kemudian dilengkapi dengan data dari Direktorat Jenderal Perhubungan Udara.

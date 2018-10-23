@@ -1,0 +1,12 @@
+# Lokasi Transjakarta DKI Jakarta
+
+Dataset ini berisi mengenai data lokasi halte Transjakarta dengan keterangan terkait di DKI Jakarta
+
+Penjelasan mengenai Variabel pada Dataset ini:
+
+koridor: Nomor Koridor
+rute_koridor: Rute yang dilalui Koridor
+nama_halte: Nama halte
+lokasi_halte: Alamat lokasi Halte
+dibangun_tahun: Tahun pembangunan halte
+keterangan: Keterangan mengenai halte

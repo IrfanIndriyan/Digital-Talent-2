@@ -1,0 +1,5 @@
+# Penjelasan mengenai Variabel pada Dataset ini:
+
+indikator: Penumpang yang Berangkat pada Penerbangan Internasional
+tahun: Bulanan
+nilai: Nilai dari Indikator terkait

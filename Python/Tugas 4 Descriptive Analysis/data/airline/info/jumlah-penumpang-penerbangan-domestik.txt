@@ -1,0 +1,7 @@
+# Jumlah Penumpang yang Berangkat pada Penerbangan Domestik
+
+Penjelasan mengenai Variabel pada Dataset ini:
+
+indikator: Penumpang yang Berangkat pada Penerbangan Domestik
+tahun: bulanan
+nilai: Nilai dari Indikator terkait

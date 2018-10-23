@@ -1,0 +1,10 @@
+# Jumlah Penumpang dan Pendapatan Transjakarta Per Koridor
+
+Dataset ini berisi mengenai jumlah penumpang dan pendapatan Transjakarta per koridor
+
+Penjelasan mengenai Variabel pada Dataset ini:
+
+koridor: Nomor Koridor Busway
+rute: Rute dari Koridor
+jumlah_penumpang: Jumlah Penumpang di Koridor terkait
+pendapatan: Jumlah Pendapatan (dalam Rupiah) di Koridor terkait

@@ -44,10 +44,10 @@ def max_min(sequence_of_numbers):
 	return max, min
 
 def modus(sequence_of_numbers):
-	unique = list(set(sequence_of_numbers))
+	unique_number = unique(sequence_of_numbers)
 	clist = []
 
-	for i in unique:
+	for i in unique_number:
 		c = 0
 		for j in sequence_of_numbers:
 			if i == j:
@@ -62,4 +62,25 @@ def modus(sequence_of_numbers):
 			max = clist[i]
 			index = i
 
-	return unique[index]
+	"""
+	num_count = {}
+
+	for number in sequence_of_number:
+		if number in num_count.keys():
+			num_count[number] += 1
+		else:
+			num_count[number] = 1
+	"""
+
+	return unique_number[index]
+
+def unique(sequence_of_numbers):
+	new_sequence_of_numbers = []
+
+	for number in sequence_of_numbers:
+		if number in new_sequence_of_numbers:
+			del(sequence_of_numbers[sequence_of_numbers.index(number)])
+		else:
+			new_sequence_of_numbers.append(number)
+
+	return new_sequence_of_numbers

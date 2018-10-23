@@ -1,0 +1,12 @@
+# Data Angkutan Perbatasan Terintegrasi Busway
+
+Dataset ini berisi mengenai informasi jumlah Angkutan Perbatasan Terintegrasi Busway (APTB) di DKI Jakarta
+
+Penjelasan mengenai Variabel pada Dataset ini:
+
+No. : Nomor
+Trayek: Nama trayek
+Rute: Rute trayek
+Lintasan: Lintasan yang dilalui
+Operator: Operator pengelola APTB
+Jumlah: Jumlah armada APTB
