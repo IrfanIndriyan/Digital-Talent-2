@@ -1,7 +1,9 @@
 def convert(value):
-	"""convert
+	"""convert(value)
 
 	convert the input value from '123 unit' converted to '123 m' or '123 kg'
+
+	return the converted value as either int or float
 	"""
 
 	import re

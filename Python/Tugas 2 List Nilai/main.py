@@ -4,7 +4,7 @@ from basic import *
 # Generate random
 nilaiTugas = []
 for i in range(0,250):
-	nilaiTugas.append(random.randrange(1,100,1))
+	nilaiTugas = nilaiTugas + [random.randrange(1,100,1)]
 
 print (nilaiTugas)
 
@@ -35,5 +35,7 @@ print ("Max: ", max)
 print ("Min: ", min)
 
 # modus
-mod = modus(nilaiTugas)
-print ("Modus: ", mod)
+mode = mode_with_list(nilaiTugas)
+print ("Modus(list): ", mode)
+mode_dict = mode_with_dict(nilaiTugas)
+print ("Modus(dict): ", mode_dict)

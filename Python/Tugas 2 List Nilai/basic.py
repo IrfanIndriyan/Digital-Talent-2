@@ -43,44 +43,75 @@ def max_min(sequence_of_numbers):
 
 	return max, min
 
-def modus(sequence_of_numbers):
+def mode_with_list(sequence_of_numbers):
 	unique_number = unique(sequence_of_numbers)
 	clist = []
 
 	for i in unique_number:
 		c = 0
 		for j in sequence_of_numbers:
-			if i == j:
+			if j == i:
 				c += 1
-		clist.append(c)
+		clist = clist + [c]
 
 	max = 0
 	index = 0
 
-	for i in range(0, count(clist)):
+	for i in indexing(0, count(clist)):
 		if max < clist[i]:
 			max = clist[i]
 			index = i
 
-	"""
+	return unique_number[index]
+
+def mode_with_dict(sequence_of_numbers):
 	num_count = {}
 
-	for number in sequence_of_number:
-		if number in num_count.keys():
+	for number in sequence_of_numbers:
+		if number in num_count:
 			num_count[number] += 1
 		else:
 			num_count[number] = 1
-	"""
 
-	return unique_number[index]
+	max = 0
+	key = 0
+
+	for i in num_count:
+		if max < num_count[i]:
+			max = num_count[i]
+			key = i
+
+	return key
 
 def unique(sequence_of_numbers):
 	new_sequence_of_numbers = []
 
 	for number in sequence_of_numbers:
 		if number in new_sequence_of_numbers:
-			del(sequence_of_numbers[sequence_of_numbers.index(number)])
+			# del(sequence_of_numbers[sequence_of_numbers.index(number)])
+			number_index = find_index(number, sequence_of_numbers)
+			sequence_of_numbers = sequence_of_numbers[:number_index] + sequence_of_numbers[number_index + 1:]
 		else:
-			new_sequence_of_numbers.append(number)
+			new_sequence_of_numbers = new_sequence_of_numbers + [number]
 
 	return new_sequence_of_numbers
+
+def find_index(number, sequence_of_numbers):
+	index = 0
+
+	for i in indexing(0, count(sequence_of_numbers)):
+		if sequence_of_numbers[i] == number:
+			index = i
+			break
+
+	return index
+
+def indexing(start, end):
+	index = []
+	number = start
+
+	while number < end:
+		index += [number]
+		number += 1
+
+	return index
