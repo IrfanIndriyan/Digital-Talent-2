@@ -1,4 +1,6 @@
 def standard_deviasi(sequence_of_numbers):
+	"""
+	"""
 	std = 0
 	sqrt2 = 0.5
 	average = rata_rata(sequence_of_numbers)
@@ -13,6 +15,8 @@ def standard_deviasi(sequence_of_numbers):
 	return std
 
 def rata_rata(sequence_of_numbers):
+	"""
+	"""
 	total = 0
 
 	for i in sequence_of_numbers:
@@ -23,6 +27,8 @@ def rata_rata(sequence_of_numbers):
 	return average
 
 def count(sequence_of_numbers):
+	"""
+	"""
 	count = 0
 
 	for i in sequence_of_numbers:
@@ -31,6 +37,8 @@ def count(sequence_of_numbers):
 	return count
 
 def max_min(sequence_of_numbers):
+	"""
+	"""
 	max = 0
 	min = 100
 
@@ -44,6 +52,8 @@ def max_min(sequence_of_numbers):
 	return max, min
 
 def mode_with_list(sequence_of_numbers):
+	"""
+	"""
 	unique_number = unique(sequence_of_numbers)
 	clist = []
 
@@ -65,6 +75,8 @@ def mode_with_list(sequence_of_numbers):
 	return unique_number[index]
 
 def mode_with_dict(sequence_of_numbers):
+	"""
+	"""
 	num_count = {}
 
 	for number in sequence_of_numbers:
@@ -84,6 +96,8 @@ def mode_with_dict(sequence_of_numbers):
 	return key
 
 def unique(sequence_of_numbers):
+	"""
+	"""
 	new_sequence_of_numbers = []
 
 	for number in sequence_of_numbers:
@@ -97,6 +111,8 @@ def unique(sequence_of_numbers):
 	return new_sequence_of_numbers
 
 def find_index(number, sequence_of_numbers):
+	"""
+	"""
 	index = 0
 
 	for i in indexing(0, count(sequence_of_numbers)):
@@ -107,6 +123,8 @@ def find_index(number, sequence_of_numbers):
 	return index
 
 def indexing(start, end):
+	"""
+	"""
 	index = []
 	number = start
 

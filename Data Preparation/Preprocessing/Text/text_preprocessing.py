@@ -1,29 +1,10 @@
+import sys
+sys.path.append("..")
+
 import re, string
 from nltk import word_tokenize as tokenize
-from Kamus.corpus import *
+from ..Kamus.corpus import collect_stopword
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
-
-def preprocessing(set_of_words, tokenization=1, lowercasing=2, removing_punctuation=3, removing_stopword=4, stemming=5, lemmatization=0, detokenization=6):
-	"""preprocessing
-
-	"""
-	new_set_of_words = []
-
-
-	factory = StemmerFactory()
-	stemmer = factory.create_stemmer()
-
-	for words in set_of_words:
-		new_words = tokenize(words)
-		new_words = lower_case(new_words)
-		new_words = remove_punctuation(new_words)
-		new_words = remove_stopword(new_words)
-		new_words = stemmer.stem(new_words)
-		new_words = detokenize(new_words)
-
-		new_set_of_words.append(new_words)
-
-	return new_set_of_words
 
 def lower_case(words):
 	"""lower_case

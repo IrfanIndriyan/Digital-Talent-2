@@ -6,5 +6,5 @@ print(paragraf)
 
 vocabulary = word_count(paragraf)
 
-for key, value in vocabulary.items():
-	print (key, value, sep = ": ")
+for key in vocabulary:
+	print (key, vocabulary[key], sep = ": ")
