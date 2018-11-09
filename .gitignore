@@ -1,0 +1,5 @@
+# General
+.DS_Store
+
+# Notebook
+.ipynb_checkpoints
