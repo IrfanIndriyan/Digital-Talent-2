@@ -2,7 +2,7 @@
 
 Digital Talent Scholarship 2018 is two months intensive training program for Indonesian youngster in order to face digital tranformation and able to adapt in Fourth revolution.
 
-<a href="https://drive.google.com/uc?export=view&id=1Owhv2goGaSvumFartzJGbUelEFJctsoS"><img src="https://drive.google.com/uc?export=view&id=1Owhv2goGaSvumFartzJGbUelEFJctsoS" style="width: 480px; max-width: 100%; height: 640" title="Click for the larger version." /></a>
+<a href="https://drive.google.com/uc?export=view&id=1Owhv2goGaSvumFartzJGbUelEFJctsoS"><img src="https://drive.google.com/uc?export=view&id=1Owhv2goGaSvumFartzJGbUelEFJctsoS" style="width: 360px; max-width: 100%; height: 480;" title="Click for the larger version." /></a>
 
 Big data analytics sylabus:
 
